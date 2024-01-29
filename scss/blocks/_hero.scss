@@ -1,0 +1,72 @@
+/*-----------------------------HERO STYLES START-----------------------------------------------*/
+
+.hero {
+    padding-top: 170px;
+    padding-bottom: 183px;
+    @include background-styled;
+    
+    &__wrapper {
+        width: 100%;
+        max-width: 490px;
+        
+    }
+    
+    &__title {
+        
+        margin-top: 0;
+        margin-bottom: 30px;
+        color: #000;
+        text-align: start;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 120%;
+    }
+    
+    &__desc {
+        position: relative;
+        margin-top: 0;
+        margin-bottom: 30px;
+        padding-left: 40px;
+        
+        color: #777;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 150%;
+        
+        &::before {
+            position: absolute;
+            left: 0;
+            
+            content: "";
+            display: inline-block;
+            width: 3px;
+            height: 100%;
+            background-color: #888;
+        }
+    }
+    
+    &__btn {
+        border: none;
+        display: flex;
+        width: 260px;
+        padding: 12px;
+        justify-content: center;
+        align-items: center;
+        background-color: #EA625C;
+    }
+    
+    &__btn-link {
+        @include link-unstyled;
+        color: #FFF;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 150%;
+        text-transform: uppercase;
+    }
+    
+
+    
+}
+/*-----------------------------HERO STYLES END-------------------------------------------------*/

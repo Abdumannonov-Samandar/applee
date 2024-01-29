@@ -12,6 +12,11 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.line {
+  height: 2px;
+  background-color: #ddd;
+}
+
 /*------------------------CONTAINER--------------------------*/
 .container {
   width: 100%;
@@ -81,4 +86,67 @@ body {
   line-height: 150%;
 }
 
-/*------------------------------------HEADER STYLES END------------------------------*//*# sourceMappingURL=main.css.map */
+/*------------------------------------HEADER STYLES END------------------------------*/
+/*-----------------------------HERO STYLES START-----------------------------------------------*/
+.hero {
+  padding-top: 170px;
+  padding-bottom: 183px;
+  background-image: url(../assets/images/watches.png);
+  background-repeat: no-repeat;
+  background-size: 587px;
+  background-position: calc(50% + 665px) 85px;
+}
+.hero__wrapper {
+  width: 100%;
+  max-width: 490px;
+}
+.hero__title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: #000;
+  text-align: start;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 120%;
+}
+.hero__desc {
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 30px;
+  padding-left: 40px;
+  color: #777;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+}
+.hero__desc::before {
+  position: absolute;
+  left: 0;
+  content: "";
+  display: inline-block;
+  width: 3px;
+  height: 100%;
+  background-color: #888;
+}
+.hero__btn {
+  border: none;
+  display: flex;
+  width: 260px;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  background-color: #EA625C;
+}
+.hero__btn-link {
+  text-decoration: none;
+  background-color: transparent;
+  color: #FFF;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+
+/*-----------------------------HERO STYLES END-------------------------------------------------*//*# sourceMappingURL=main.css.map */

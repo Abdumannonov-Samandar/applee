@@ -9,3 +9,10 @@
     text-decoration: none;
     background-color: transparent;
 }
+
+@mixin background-styled {
+    background-image: url(../assets/images/watches.png);
+    background-repeat: no-repeat;
+    background-size: 587px;
+    background-position: calc(50% + 665px) 85px;
+}
