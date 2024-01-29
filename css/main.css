@@ -3,6 +3,10 @@
 
     SASS: .scss 
 */
+* {
+  box-sizing: border-box;
+}
+
 body {
   width: 100%;
   height: 100%;
@@ -13,6 +17,7 @@ body {
 }
 
 .line {
+  border: none;
   height: 2px;
   background-color: #ddd;
 }
@@ -149,4 +154,70 @@ body {
   text-transform: uppercase;
 }
 
-/*-----------------------------HERO STYLES END-------------------------------------------------*//*# sourceMappingURL=main.css.map */
+/*-----------------------------HERO STYLES END-------------------------------------------------*/
+/*-----------------------------------INFO STYLES START----------------------------------------*/
+.info {
+  padding: 70px 0;
+}
+.info__list {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+.info__item {
+  width: 100%;
+  max-width: 280px;
+}
+.info__item::after {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-color: #ddd;
+  box-shadow: 18px 0 0 0 #ddd, 36px 0 0 0 #ddd;
+}
+.info__item:last-child::after {
+  display: none;
+}
+.info__item-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: #222;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+.info__item-desc {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+.info__item-link {
+  text-decoration: none;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  color: #EA625C;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%;
+  text-transform: uppercase;
+}
+.info__item-link::before {
+  content: "";
+  margin-right: 10px;
+  display: inline-block;
+  width: 40px;
+  height: 3px;
+  background-color: #EA625C;
+}
+
+/*-----------------------------------INFO STYLES END------------------------------------------*//*# sourceMappingURL=main.css.map */
