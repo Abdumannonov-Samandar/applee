@@ -1,0 +1,21 @@
+// Comment 
+/*
+    Comment kop qatorlik izoh
+    
+    SASS: .scss 
+*/
+
+body {
+    width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+@import './mixins';
+@import "./blocks/blocks";
+
+
